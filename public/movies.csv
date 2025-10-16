@@ -1,56 +1,21 @@
-id,title,genre,year,rating,director,description,poster
-1,Inception,Sci-Fi,2010,8.8,Christopher Nolan,"A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea.",inception.jpg
-2,The Shawshank Redemption,Drama,1994,9.3,Frank Darabont,"Two imprisoned men bond over years, finding solace and eventual redemption through acts of common decency.",shawshank-redemption.jpg
-3,The Dark Knight,Action,2008,9.0,Christopher Nolan,"When the menace known as the Joker wreaks havoc and chaos on Gotham, Batman must accept one of the greatest tests.",dark-knight.jpg
-4,Pulp Fiction,Crime,1994,8.9,Quentin Tarantino,"The lives of two mob hitmen, a boxer, and a pair of diner bandits intertwine in four tales of violence.",pulp-fiction.jpg
-5,Forrest Gump,Drama,1994,8.8,Robert Zemeckis,"The presidencies of Kennedy and Johnson unfold through the perspective of an Alabama man with an IQ of 75.",forrest-gump.jpg
-6,The Matrix,Sci-Fi,1999,8.7,Wachowski Brothers,A computer hacker learns from mysterious rebels about the true nature of his reality.,matrix.jpg
-7,Interstellar,Sci-Fi,2014,8.6,Christopher Nolan,A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.,interstellar.jpg
-8,Parasite,Thriller,2019,8.6,Bong Joon Ho,Greed and class discrimination threaten the newly formed symbiotic relationship between two families.,parasite.jpg
-9,The Godfather,Crime,1972,9.2,Francis Ford Coppola,The aging patriarch of an organized crime dynasty transfers control to his reluctant son.,godfather.jpg
-10,Gladiator,Action,2000,8.5,Ridley Scott,A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family.,gladiator.jpg
-11,Spirited Away,Animation,2001,8.6,Hayao Miyazaki,"During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods and witches.",spirited-away.jpg
-12,Whiplash,Drama,2014,8.5,Damien Chazelle,A promising young drummer enrolls at a music conservatory where he's mentored by a tyrannical instructor.,whiplash.jpg
-13,Fight Club,Thriller,1999,8.8,David Fincher,An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.,fight-club.jpg
-14,The Lord of the Rings: The Fellowship of the Ring,Fantasy,2001,8.8,Peter Jackson,A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring.,lotr-fellowship.jpg
-15,Star Wars: The Empire Strikes Back,Sci-Fi,1980,8.7,Irvin Kershner,"After the Rebels are brutally overpowered by the Empire, Luke Skywalker begins Jedi training with Yoda.",empire-strikes-back.jpg
-16,Schindler's List,Drama,1993,8.9,Steven Spielberg,"In German-occupied Poland, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce.",schindlers-list.jpg
-17,The Silence of the Lambs,Thriller,1991,8.6,Jonathan Demme,A young FBI cadet must receive the help of an incarcerated cannibal killer to catch another serial killer.,silence-of-lambs.jpg
-18,Goodfellas,Crime,1990,8.7,Martin Scorsese,The story of Henry Hill and his life in the mob covering his relationship with his wife and his partners.,goodfellas.jpg
-19,The Prestige,Mystery,2006,8.5,Christopher Nolan,"After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion.",prestige.jpg
-20,The Green Mile,Drama,1999,8.6,Frank Darabont,"The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder.",green-mile.jpg
-21,Saving Private Ryan,War,1998,8.6,Steven Spielberg,"Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper.",saving-private-ryan.jpg
-22,Jurassic Park,Adventure,1993,8.1,Steven Spielberg,A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting visitors from rampaging dinosaurs.,jurassic-park.jpg
-23,Avatar,Sci-Fi,2009,7.8,James Cameron,A paraplegic Marine dispatched to the moon Pandora becomes torn between following orders and protecting the world he feels is his home.,avatar.jpg
-24,Titanic,Romance,1997,7.8,James Cameron,A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious ill-fated R.M.S. Titanic.,titanic.jpg
-25,The Lion King,Animation,1994,8.5,Roger Allers,"Lion prince Simba flees his kingdom after the murder of his father, only to learn the true meaning of responsibility.",lion-king.jpg
-26,Toy Story,Animation,1995,8.3,John Lasseter,"A cowboy doll is profoundly threatened when a new spaceman figure supplants him as top toy in a boy's room.",toy-story.jpg
-27,Back to the Future,Adventure,1985,8.5,Robert Zemeckis,Marty McFly accidentally travels back in time and must make his high-school-age parents fall in love or cease to exist.,back-to-future.jpg
-28,Blade Runner 2049,Sci-Fi,2017,8.0,Denis Villeneuve,A young blade runner's discovery of a long-buried secret leads him to track down former blade runner Rick Deckard.,blade-runner-2049.jpg
-29,Mad Max: Fury Road,Action,2015,8.1,George Miller,"In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland.",mad-max-fury-road.jpg
-30,Eternal Sunshine of the Spotless Mind,Romance,2004,8.3,Michel Gondry,"When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories.",eternal-sunshine.jpg
-31,No Country for Old Men,Thriller,2007,8.1,Coen Brothers,Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash.,no-country.jpg
-32,Django Unchained,Western,2012,8.4,Quentin Tarantino,"With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",django-unchained.jpg
-33,Her,Romance,2013,8.0,Spike Jonze,"In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.",her.jpg
-34,12 Angry Men,Drama,1957,8.9,Sidney Lumet,A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.,12-angry-men.jpg
-35,There Will Be Blood,Drama,2007,8.2,Paul Thomas Anderson,"A story of family, religion, greed, and oil, centered around a turn-of-the-century prospector in the early days of business.",there-will-be-blood.jpg
-36,Casino Royale,Action,2006,8.0,Martin Campbell,Armed with a license to kill James Bond sets out on his first mission as 007 and must defeat a weapons dealer in a high stakes poker game.,casino-royale.jpg
-37,The Departed,Crime,2006,8.5,Martin Scorsese,An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.,
-38,The Usual Suspects,Mystery,1995,8.5,Bryan Singer,A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat which began when five criminals met.,
-39,The Lion King,Animation,2019,6.8,Jon Favreau,After the murder of his father a young lion prince flees his kingdom only to learn the true meaning of responsibility.,
-40,Se7en,Thriller,1995,8.6,David Fincher,Two detectives hunt a serial killer who uses the seven deadly sins as his motives.,
-41,American History X,Drama,1998,8.5,Tony Kaye,A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.,
-42,Life is Beautiful,Comedy,1997,8.6,Roberto Benigni,When an open-minded Jewish librarian and his son become victims of the Holocaust they use humor and imagination to protect his son.,
-43,The Pianist,Drama,2002,8.5,Roman Polanski,A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.,
-44,Memento,Thriller,2000,8.4,Christopher Nolan,A man with short-term memory loss attempts to track down his wife's murderer.,
-45,The Intouchables,Comedy,2011,8.5,Olivier Nakache,After he becomes a quadriplegic from a paragliding accident an aristocrat hires a young man from the projects to be his caregiver.,
-46,Braveheart,Drama,1995,8.3,Mel Gibson,Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I.,
-47,Gladiator,Action,2000,8.5,Ridley Scott,A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and forced him into slavery.,
-48,The Truman Show,Drama,1998,8.1,Peter Weir,"An insurance salesman discovers his whole life is actually a reality TV show.",
-49,Oldboy,Thriller,2003,8.4,Park Chan-wook,"After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.",
-50,A Beautiful Mind,Drama,2001,8.2,Ron Howard,"After John Nash accepts secret work in cryptography his life takes a turn for the nightmarish.",
-51,The Grand Budapest Hotel,Comedy,2014,8.1,Wes Anderson,"A writer encounters the owner of an aging high-class hotel who tells him of his early years serving as a lobby boy in the hotel's glorious years.",
-52,V for Vendetta,Action,2005,8.1,James McTeigue,"In a future British tyranny, a shadowy freedom fighter plots to overthrow it with the help of a young woman.",
-53,Inglourious Basterds,War,2009,8.3,Quentin Tarantino,"In Nazi-occupied France, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans.",
-54,Up,Animation,2009,8.2,Pete Docter,"78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway.",
-55,WALL-E,Animation,2008,8.4,Andrew Stanton,"In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+title,year,genre,rating,director,poster,description
+The Shawshank Redemption,1994,Drama,9.3,Frank Darabont,https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=300&h=450&fit=crop,Two imprisoned men bond over a number of years finding solace and eventual redemption.
+The Godfather,1972,Crime,9.2,Francis Ford Coppola,https://images.unsplash.com/photo-1535016120720-40c646be5580?w=300&h=450&fit=crop,The aging patriarch of an organized crime dynasty transfers control to his reluctant son.
+The Dark Knight,2008,Action,9.0,Christopher Nolan,https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?w=300&h=450&fit=crop,Batman faces the Joker in a battle for Gotham's soul.
+Pulp Fiction,1994,Crime,8.9,Quentin Tarantino,https://images.unsplash.com/photo-1594908900066-3f47337549d8?w=300&h=450&fit=crop,Various interconnected stories of Los Angeles criminals and their associates.
+Forrest Gump,1994,Drama,8.8,Robert Zemeckis,https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=300&h=450&fit=crop,The presidencies of Kennedy and Johnson unfold through the perspective of an Alabama man.
+Inception,2010,Sci-Fi,8.8,Christopher Nolan,https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=300&h=450&fit=crop,A thief who steals corporate secrets through dream-sharing technology.
+The Matrix,1999,Sci-Fi,8.7,Wachowski Sisters,https://images.unsplash.com/photo-1574267432644-f74f8ec55ae1?w=300&h=450&fit=crop,A computer hacker learns about the true nature of reality.
+Interstellar,2014,Sci-Fi,8.6,Christopher Nolan,https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=300&h=450&fit=crop,A team of explorers travel through a wormhole in space.
+Gladiator,2000,Action,8.5,Ridley Scott,https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=300&h=450&fit=crop,A former Roman General seeks vengeance against the corrupt emperor.
+The Prestige,2006,Drama,8.5,Christopher Nolan,https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=300&h=450&fit=crop,Two stage magicians engage in competitive one-upmanship.
+The Departed,2006,Crime,8.5,Martin Scorsese,https://images.unsplash.com/photo-1485846234645-a62644f84728?w=300&h=450&fit=crop,An undercover cop and a mole in the police force try to identify each other.
+The Lion King,1994,Animation,8.5,Roger Allers,https://images.unsplash.com/photo-1556103255-4443dbae8e5a?w=300&h=450&fit=crop,Lion prince flees his kingdom only to learn the true meaning of responsibility.
+Avengers Endgame,2019,Action,8.4,Russo Brothers,https://images.unsplash.com/photo-1635805737707-575885ab0820?w=300&h=450&fit=crop,The Avengers assemble once more to reverse Thanos' actions.
+Parasite,2019,Thriller,8.6,Bong Joon-ho,https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?w=300&h=450&fit=crop,Greed and class discrimination threaten the newly formed symbiotic relationship.
+Whiplash,2014,Drama,8.5,Damien Chazelle,https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=300&h=450&fit=crop,A young drummer enrolls at a cut-throat music conservatory.
+La La Land,2016,Musical,8.0,Damien Chazelle,https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=300&h=450&fit=crop,A jazz pianist and an aspiring actress fall in love in Los Angeles.
+Dune,2021,Sci-Fi,8.0,Denis Villeneuve,https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=300&h=450&fit=crop,Paul Atreides arrives on Arrakis after his father accepts stewardship of the planet.
+Joker,2019,Drama,8.4,Todd Phillips,https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=300&h=450&fit=crop,A failed comedian begins his descent into mental illness.
+Spider-Man: Into the Spider-Verse,2018,Animation,8.4,Bob Persichetti,https://images.unsplash.com/photo-1608889476561-6242cfdbf622?w=300&h=450&fit=crop,Teen Miles Morales becomes Spider-Man and joins other Spider-People.
+Everything Everywhere All at Once,2022,Sci-Fi,7.8,Daniels,https://images.unsplash.com/photo-1616530940355-351fabd9524b?w=300&h=450&fit=crop,An aging Chinese immigrant swept up in an insane adventure.
