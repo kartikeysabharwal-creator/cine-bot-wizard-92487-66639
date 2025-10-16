@@ -2,8 +2,10 @@ import { useState, useEffect } from "react";
 import { Movie, parseMoviesCSV } from "@/lib/csvParser";
 import { MovieCard } from "@/components/MovieCard";
 import { MovieFilters } from "@/components/MovieFilters";
-import { Loader2, Film } from "lucide-react";
+import { MovieChat } from "@/components/MovieChat";
+import { Loader2, Film, MessageSquare, Grid3x3 } from "lucide-react";
 import { toast } from "sonner";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const Index = () => {
   const [movies, setMovies] = useState<Movie[]>([]);
@@ -115,42 +117,63 @@ const Index = () => {
         </div>
       </header>
 
-      {/* Filters and Content */}
+      {/* Main Content with Tabs */}
       <main className="container mx-auto px-4 py-12">
-        <MovieFilters
-          searchTerm={searchTerm}
-          onSearchChange={setSearchTerm}
-          selectedGenre={selectedGenre}
-          onGenreChange={setSelectedGenre}
-          sortBy={sortBy}
-          onSortChange={setSortBy}
-          genres={genres}
-        />
+        <Tabs defaultValue="browse" className="w-full">
+          <TabsList className="grid w-full max-w-md mx-auto grid-cols-2 mb-8">
+            <TabsTrigger value="browse" className="flex items-center gap-2">
+              <Grid3x3 className="w-4 h-4" />
+              Browse Movies
+            </TabsTrigger>
+            <TabsTrigger value="chat" className="flex items-center gap-2">
+              <MessageSquare className="w-4 h-4" />
+              AI Assistant
+            </TabsTrigger>
+          </TabsList>
 
-        {filteredMovies.length === 0 ? (
-          <div className="text-center py-24 space-y-4">
-            <Film className="w-16 h-16 text-muted-foreground mx-auto opacity-50" />
-            <h3 className="text-2xl font-semibold text-foreground">No movies found</h3>
-            <p className="text-muted-foreground">Try adjusting your filters</p>
-          </div>
-        ) : (
-          <>
-            <div className="mb-6 text-sm text-muted-foreground">
-              Showing {filteredMovies.length} {filteredMovies.length === 1 ? 'movie' : 'movies'}
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {filteredMovies.map((movie, index) => (
-                <div
-                  key={`${movie.title}-${index}`}
-                  className="animate-in fade-in slide-in-from-bottom-4"
-                  style={{ animationDelay: `${index * 50}ms` }}
-                >
-                  <MovieCard movie={movie} />
+          <TabsContent value="browse" className="mt-0">
+            <MovieFilters
+              searchTerm={searchTerm}
+              onSearchChange={setSearchTerm}
+              selectedGenre={selectedGenre}
+              onGenreChange={setSelectedGenre}
+              sortBy={sortBy}
+              onSortChange={setSortBy}
+              genres={genres}
+            />
+
+            {filteredMovies.length === 0 ? (
+              <div className="text-center py-24 space-y-4">
+                <Film className="w-16 h-16 text-muted-foreground mx-auto opacity-50" />
+                <h3 className="text-2xl font-semibold text-foreground">No movies found</h3>
+                <p className="text-muted-foreground">Try adjusting your filters</p>
+              </div>
+            ) : (
+              <>
+                <div className="mb-6 text-sm text-muted-foreground">
+                  Showing {filteredMovies.length} {filteredMovies.length === 1 ? 'movie' : 'movies'}
                 </div>
-              ))}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                  {filteredMovies.map((movie, index) => (
+                    <div
+                      key={`${movie.title}-${index}`}
+                      className="animate-in fade-in slide-in-from-bottom-4"
+                      style={{ animationDelay: `${index * 50}ms` }}
+                    >
+                      <MovieCard movie={movie} />
+                    </div>
+                  ))}
+                </div>
+              </>
+            )}
+          </TabsContent>
+
+          <TabsContent value="chat" className="mt-0">
+            <div className="max-w-4xl mx-auto">
+              <MovieChat />
             </div>
-          </>
-        )}
+          </TabsContent>
+        </Tabs>
       </main>
 
       {/* Footer */}
